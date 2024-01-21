@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
+    <NuspecFile>My.Package.nuspec</NuspecFile>
+
     <!-- Do not include build output in nuget package -->
     <IncludeBuildOutput>false</IncludeBuildOutput>
 
