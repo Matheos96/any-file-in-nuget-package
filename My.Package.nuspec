@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>My.Package</id>
+        <version>0.0.1</version>
+        <description>Description here</description>
+        <authors>John Doe</authors>
+
+        <!-- Backwards compitability with packages.config style projects -->
+        <files>
+            <file src="content/**/*.*" exclude="content" />
+        </files>
+        <!-- For SDK style projects -->
+        <contentFiles>
+                <files include="content/**/*.*" buildAction="None" copyToOutput="true" flatten="false" />
+        </contentFiles>
+    </metadata>
+</package>
